@@ -1,0 +1,32 @@
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+ @font-face {
+    font-family: "Miller";
+    src: url("fonts//MillerBanner/MillerBanner-Roman.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Miller-roman";
+    src: url("fonts//MillerBanner_roman/MillerBanner-Roman.otf") format("otf"),
+        url("fonts//MillerBanner_roman/MillerBanner-Roman.eot") format("eot"),
+        url("fonts//MillerBanner_roman/MillerBanner-Roman.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Brown";
+    src: url("fonts//Brown/Brown-Light.ttf") format("ttf"),
+        url("fonts//Brown/brown-light.woff") format("woff"),
+        url("fonts//Brown/brown-light.eot") format("eot");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
